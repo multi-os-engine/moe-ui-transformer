@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical">
+
+    <com.android.sdklib.widgets.iOSDatePicker
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            style="@style/XOSDatePicker"/>
+    
+</LinearLayout>

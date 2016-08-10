@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.sdklib.widgets.iOSViewController xmlns:android="http://schemas.android.com/apk/res/android"
+                                                              android:layout_width="match_parent"
+                                                              android:layout_height="match_parent"
+                                                              xmlns:xrt="http://schemas.android.com/apk/res/android"
+                                                              android:orientation="vertical" >
+
+    <com.android.sdklib.widgets.iOSToolBar
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/XOSToolbar"
+            android:layout_gravity="left">
+        <com.android.sdklib.widgets.iOSBarButtonItem
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item"
+                style="@style/XOSBarButtonItem"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/image"/>
+
+    </com.android.sdklib.widgets.iOSToolBar></com.android.sdklib.widgets.iOSViewController>

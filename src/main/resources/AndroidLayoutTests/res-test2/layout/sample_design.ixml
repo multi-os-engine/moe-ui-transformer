@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.sdklib.widgets.iOSViewController
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     xmlns:xrt="http://schemas.android.com/apk/res/android"
+     xrt:initialViewController="false"
+     android:orientation="vertical"
+     xrt:viewController="org.moe.SampleMOSProject.ui.AppViewController"
+     android:weightSum="1">
+
+    <com.android.sdklib.widgets.iOSSwitch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/XOSSwitch"
+        android:checked="true"
+        android:id="@+id/com.android.sdklib.widgets.iOSSwitch"
+        android:layout_marginTop="20dp" xrt:iboutlet="switcherert"
+        xrt:ibaction="valueChanged-switchState:"/>
+        <com.android.sdklib.widgets.iOSButton style="@style/XOSButton"
+            xrt:segue_type="show"
+            xrt:segue_destination="SecondView.ixml"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:textSize="15dp"
+            android:text="Add new Record New"
+            android:id="@+id/com.android.sdklib.widgets.iOSButton"
+            android:layout_marginTop="25dp"
+            xrt:iboutlet="myButton"/>
+    </com.android.sdklib.widgets.iOSViewController>

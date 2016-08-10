@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.sdklib.widgets.iOSViewController xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:xrt="http://schemas.android.com/apk/res/android" android:orientation="vertical">
+
+<com.android.sdklib.widgets.iOSTabBar
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/XOSTabBar"
+                        xrt:restorationIdentifier="identifier"
+                        android:layout_gravity="left">
+                    <com.android.sdklib.widgets.iOSTabBarItem
+                            android:drawableTop="@drawable/ios_favorite"
+                            style="@style/XOSTabBarItem"
+                            android:text="Favorites"
+                             android:layout_weight="1"/>
+                    <com.android.sdklib.widgets.iOSTabBarItem
+                            android:drawableTop="@drawable/ios_dot_more"
+                            style="@style/XOSTabBarItem"
+                            android:text="More"
+                             android:layout_weight="1"/>
+</com.android.sdklib.widgets.iOSTabBar>
+
+</com.android.sdklib.widgets.iOSViewController>

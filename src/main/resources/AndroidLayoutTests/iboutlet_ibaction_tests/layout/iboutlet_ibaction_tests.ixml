@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.sdklib.widgets.iOSViewController xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xrt="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             xrt:viewController="org.moe.ios.samples.tictactoe.ui.TicTacToeViewController"
+             xrt:initialViewController="true">
+
+              <com.android.sdklib.widgets.iOSButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    style="@style/XOSButton"
+                    android:text="Action Button"
+                    android:layout_weight="1"
+                    xrt:ibaction="touchUpInside-initAction"
+                    xrt:iboutlet="someButton"/>
+
+</com.android.sdklib.widgets.iOSViewController>

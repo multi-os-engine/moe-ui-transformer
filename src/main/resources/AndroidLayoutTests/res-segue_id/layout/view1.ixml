@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.sdklib.widgets.iOSViewController xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:xrt="http://schemas.android.com/apk/res/android" xrt:initialViewController="true" android:orientation="vertical">
+
+<com.android.sdklib.widgets.iOSStepper
+                    android:layout_width="94dp"
+                    android:layout_height="29dp"
+                    style="@style/XOSStepper_RadioGroup"
+                    android:layout_gravity="left" android:id="@+id/com.android.sdklib.widgets.iOSStepper" xrt:segue_identifier="stepper" xrt:segue_type="show" xrt:segue_destination="view2.ixml">
+            </com.android.sdklib.widgets.iOSStepper><com.android.sdklib.widgets.iOSButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="Button"
+                android:layout_gravity="left"
+                style="@style/XOSButton"
+              android:id="@+id/com.android.sdklib.widgets.iOSButton" xrt:segue_type="show" xrt:segue_destination="view2.ixml" xrt:segue_identifier="button"/><com.android.sdklib.widgets.iOSDatePicker
+                      android:layout_width="match_parent"
+                      android:layout_height="51dp"
+                      style="@style/XOSDatePicker"
+                      android:layout_gravity="left" android:id="@+id/com.android.sdklib.widgets.iOSDatePicker" xrt:segue_type="show" xrt:segue_destination="view2.ixml" xrt:segue_identifier="datePiker"/><com.android.sdklib.widgets.iOSSegmentedControl
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/XOSSegmentedControl_RadioGroup"
+                        android:layout_gravity="left" xrt:segue_type="show" xrt:segue_destination="view2.ixml" xrt:segue_identifier="segControl">
+
+
+                        <com.android.sdklib.widgets.iOSRadioButtonSC
+                            style="@style/XOSSegmentedControl_RadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="First"
+                            android:layout_gravity="left"/>
+
+                        <com.android.sdklib.widgets.iOSRadioButtonSC
+                            style="@style/XOSSegmentedControl_RadioButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Second"
+                            android:layout_gravity="left"/>
+
+                </com.android.sdklib.widgets.iOSSegmentedControl><com.android.sdklib.widgets.iOSPageControlGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/XOSPageControlGroup"
+                        android:layout_gravity="left" xrt:segue_type="show" xrt:segue_destination="view2.ixml" xrt:segue_identifier="pageControl">
+
+                        <com.android.sdklib.widgets.iOSPageControlButton
+                        style="@style/XOSPageControlDot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:layout_gravity="left"/>
+
+                        <com.android.sdklib.widgets.iOSPageControlButton
+                        style="@style/XOSPageControlDot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"/>
+
+                        <com.android.sdklib.widgets.iOSPageControlButton
+                        style="@style/XOSPageControlDot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"/>
+
+                </com.android.sdklib.widgets.iOSPageControlGroup><com.android.sdklib.widgets.iOSToolBar
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            style="@style/XOSToolbar"
+                            android:layout_gravity="left">
+                    <com.android.sdklib.widgets.iOSBarButtonItem
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Item"
+                    style="@style/XOSBarButtonItem" android:id="@+id/com.android.sdklib.widgets.iOSBarButtonItem" android:layout_alignParentBottom="true" android:layout_alignParentLeft="true" xrt:segue_type="show" xrt:segue_destination="view2.ixml" xrt:segue_identifier="toolBarItem"/></com.android.sdklib.widgets.iOSToolBar><com.android.sdklib.widgets.iOSSwitch
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/XOSSwitch"
+                    android:checked="true"
+                    android:layout_gravity="left" android:id="@+id/com.android.sdklib.widgets.iOSSwitch" xrt:segue_type="show" xrt:segue_destination="view2.ixml" xrt:segue_identifier="switchIdent"/><com.android.sdklib.widgets.iOSTextField
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Enter Text"
+                    android:textSize="15dp"
+                    style="@style/XOSTextField"
+                    android:layout_gravity="left" android:id="@+id/com.android.sdklib.widgets.iOSTextField" xrt:segue_type="show" xrt:segue_destination="view2.ixml" xrt:segue_identifier="textFieldIdent"/><com.android.sdklib.widgets.iOSSlider
+                        style = "@style/XOSSlider"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:progress="50"
+                        android:max="100"
+                        android:indeterminate="false"
+                        android:layout_gravity="left" android:id="@+id/com.android.sdklib.widgets.iOSSlider" xrt:segue_type="show" xrt:segue_destination="view2.ixml" xrt:segue_identifier="sliderIdent"/><com.android.sdklib.widgets.iOSTableView
+                      android:orientation="vertical"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      style="@style/XOSTableView"
+                      android:layout_weight="1"
+                      android:layout_gravity="left">
+                        <com.android.sdklib.widgets.iOSTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Prototype Cells"
+                                android:textSize="15dp"
+                                android:textColor="#000000"
+                                android:layout_marginLeft="15dp"
+                                android:textStyle="bold"/>
+
+                        <com.android.sdklib.widgets.iOSTableViewCell
+                                      android:orientation="horizontal"
+                                      android:layout_width="fill_parent"
+                                      android:layout_height="40dp"
+                                      style="@style/XOSTableViewCell" xrt:segue_type="show" xrt:segue_destination="view2.ixml" xrt:segue_identifier="tableViewCellIdent">
+
+                        </com.android.sdklib.widgets.iOSTableViewCell>
+
+
+                </com.android.sdklib.widgets.iOSTableView></com.android.sdklib.widgets.iOSViewController>

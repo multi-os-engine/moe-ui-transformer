@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.sdklib.widgets.iOSViewController xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:xrt="http://schemas.android.com/apk/res/android" android:orientation="vertical">
+
+<com.android.sdklib.widgets.iOSImageView
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_gravity="left"
+            xrt:restorationIdentifier="identifier"
+            android:background="@drawable/intel">
+          </com.android.sdklib.widgets.iOSImageView></com.android.sdklib.widgets.iOSViewController>

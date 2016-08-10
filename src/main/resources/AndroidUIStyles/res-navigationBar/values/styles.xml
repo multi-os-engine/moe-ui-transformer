@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light"/>
+    <style name="AppTheme" parent ="AppBaseTheme"/>
+
+    <!-- XOS Navigation Bar (as Android Toolbar) -->
+    <style name="XOSNavigationBar">
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:background">@drawable/xos_bar_background</item>
+    </style>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.sdklib.widgets.iOSViewController xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:xrt="http://schemas.android.com/apk/res/android" android:orientation="vertical">
+
+<com.android.sdklib.widgets.iOSTextPicker xmlns:android="http://schemas.android.com/apk/res/android"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical"
+                          android:background="@drawable/picker_single"
+                          xrt:restorationIdentifier="identifier"
+                          android:layout_gravity="center_horizontal">
+                <com.android.sdklib.widgets.iOSTextView
+                        style = "@style/XOSTextView"
+                        android:textColor="@color/ios_gray"
+                        android:layout_margin="5dp"
+                        android:text="Mountain View"
+                        android:layout_weight="1"/>
+                <com.android.sdklib.widgets.iOSTextView
+                        style = "@style/XOSTextView"
+                        android:textColor="@color/ios_gray"
+                        android:layout_margin="5dp"
+                        android:text="Sunnyvale"
+                        android:layout_weight="1"/>
+                <com.android.sdklib.widgets.iOSTextView
+                        style = "@style/XOSTextView"
+                        android:textColor="@color/ios_black"
+                        android:layout_margin="5dp"
+                        android:text="Cupertino"
+                        android:layout_weight="1"/>
+                <com.android.sdklib.widgets.iOSTextView
+                        style = "@style/XOSTextView"
+                        android:textColor="@color/ios_gray"
+                        android:layout_margin="5dp"
+                        android:text="Santa Clara"
+                        android:layout_weight="1"/>
+                <com.android.sdklib.widgets.iOSTextView
+                        style = "@style/XOSTextView"
+                        android:textColor="@color/ios_gray"
+                        android:layout_margin="5dp"
+                        android:text="San Jose"
+                        android:layout_weight="1"/>
+            </com.android.sdklib.widgets.iOSTextPicker></com.android.sdklib.widgets.iOSViewController>

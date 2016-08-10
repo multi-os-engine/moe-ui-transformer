@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xrt="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <com.android.sdklib.widgets.iOSButton
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        xrt:ibaction="touchUpInside-btnClicked1"
+        xrt:iboutlet="btnObj1"
+        android:background="#277303"
+        style="@style/XOSButton"/>
+
+    <com.android.sdklib.widgets.iOSButton
+        android:id="@+id/button2"
+        xrt:ibaction="touchUpInside-btnClicked2"
+        xrt:iboutlet="btnObj2"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Button2"
+        style="@style/XOSButton"/>
+</com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout>
+</com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout>

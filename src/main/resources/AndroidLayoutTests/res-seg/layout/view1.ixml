@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.sdklib.widgets.iOSViewController xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:xrt="http://schemas.android.com/apk/res/android" xrt:initialViewController="true" android:orientation="vertical">
+
+<com.android.sdklib.widgets.iOSTableView
+                      android:orientation="vertical"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      style="@style/XOSTableView"
+                      android:layout_weight="1"
+                      android:layout_gravity="left" xrt:segue_type="show" xrt:segue_destination="view2.ixml" xrt:restorationIdentifier="restorID">
+                        <com.android.sdklib.widgets.iOSTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Prototype Cells"
+                                android:textSize="15dp"
+                                android:textColor="#000000"
+                                android:layout_marginLeft="15dp"
+                                android:textStyle="bold"/>
+
+                        <com.android.sdklib.widgets.iOSTableViewCell
+                                      android:orientation="horizontal"
+                                      android:layout_width="fill_parent"
+                                      android:layout_height="40dp"
+                                      style="@style/XOSTableViewCell" xrt:segue_type="show" xrt:segue_destination="view2.ixml" xrt:reuseIdentifier="reuseID" xrt:restorationIdentifier="restorID">
+
+                        </com.android.sdklib.widgets.iOSTableViewCell>
+
+
+                </com.android.sdklib.widgets.iOSTableView></com.android.sdklib.widgets.iOSViewController>

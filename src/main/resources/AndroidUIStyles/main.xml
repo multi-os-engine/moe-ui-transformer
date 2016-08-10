@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+
+              android:weightSum="1">
+
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+
+              android:weightSum="1">
+
+    <!--<Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch1"  android:layout_gravity="center_horizontal"
+            android:layout_weight="0.1"
+            android:padding="5dip" android:checked="true"/>
+    -->
+    <TableRow>
+
+
+    </TableRow>
+    <TableRow
+            >
+
+
+        <SeekBar
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/seekBar2"
+                android:max="100"
+
+                android:progress="50"
+                android:indeterminate="false"
+                android:padding="20dp"
+                android:layout_marginLeft="0dp"
+                android:layout_weight="0.1"
+
+
+                />
+        <SeekBar
+                style = "@style/CrossOSSeekBar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBar"
+                android:progress="50"
+                android:max="100"
+                android:indeterminate="false"
+                android:padding="20dp"
+                android:layout_weight="1"
+
+                android:layout_column="1"/>
+
+
+    </TableRow>
+    <TableRow android:layout_margin="20dp">
+
+
+    <Switch
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch2" android:layout_gravity="center_horizontal" android:checked="true"
+            android:layout_weight="1"/>
+    <Switch
+            android:layout_width="159dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch1"
+            android:layout_weight="1"
+            android:checked="true"
+            android:thumb="@drawable/switch_thumb"
+            android:track="@drawable/switch_track"
+            android:gravity="center_vertical"
+            android:textOn=""
+            android:textOff=""
+            android:layout_gravity="center_horizontal"/>
+    </TableRow>
+    <TableRow android:layout_margin="20dp">
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"/>
+    <Button
+            style="@style/CrossOSButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1"
+            android:layout_weight="1"/>
+    </TableRow>
+    <TableRow
+            android:layout_margin="20dp">
+        <ZoomControls android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:layout_gravity="center_horizontal"></ZoomControls>
+        <com.example.myapp.CrossOSStepper
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/stepper1"
+                android:layout_weight="1"/>
+    </TableRow>
+
+
+    <TableRow android:layout_margin="20dp">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Label"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"/>
+    <TextView
+            style="@style/CrossOSLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:layout_weight="1"
+            />
+    </TableRow>
+
+    <!--style="@style/CrossOSSwitch"
+    --><![CDATA[
+            />
+
+
+
+    ]]>
+
+
+    </TableLayout>
+    <com.example.myapp.CrossOSPicker
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/picker1"
+            />
+
+</LinearLayout>

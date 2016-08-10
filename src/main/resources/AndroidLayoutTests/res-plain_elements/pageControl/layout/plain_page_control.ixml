@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.sdklib.widgets.iOSViewController xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:xrt="http://schemas.android.com/apk/res/android" android:orientation="vertical">
+
+<com.android.sdklib.widgets.iOSPageControlGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/XOSPageControlGroup"
+                        xrt:restorationIdentifier="identifier"
+                        android:layout_gravity="left"
+                        xrt:segue_type="show"
+                        xrt:segue_destination="test_design.ixml"
+                        xrt:segue_identifier="segue_identifier">
+
+                        <com.android.sdklib.widgets.iOSPageControlButton
+                        style="@style/XOSPageControlDot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:layout_weight="1"/>
+
+                        <com.android.sdklib.widgets.iOSPageControlButton
+                        style="@style/XOSPageControlDot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+
+                        <com.android.sdklib.widgets.iOSPageControlButton
+                        style="@style/XOSPageControlDot"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"/>
+
+                </com.android.sdklib.widgets.iOSPageControlGroup></com.android.sdklib.widgets.iOSViewController>

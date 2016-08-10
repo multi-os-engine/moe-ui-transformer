@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.sdklib.widgets.iOSViewController
+            xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:xrt="http://schemas.android.com/apk/res/android"
+             xrt:initialViewController="true"
+             android:orientation="vertical"
+             xrt:viewController="org.moe.iOS.ui.AppViewController">
+
+    <com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_weight="1">
+
+             <com.android.sdklib.widgets.iOSTextView
+                style="@style/XOSLabel"
+                android:textSize="30dp"
+                android:textColor="#fffeff43"
+                android:text="1st page"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/com.android.sdklib.widgets.iOSTextView"
+                android:layout_weight="1.0"/>
+
+             <com.android.sdklib.widgets.iOSTextField
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Text"
+                android:textSize="30dp"
+                android:textColor="#fffeff43"
+                style="@style/XOSTextField"
+                android:id="@+id/com.android.sdklib.widgets.iOSTextField" />
+
+             <com.android.sdklib.widgets.iOSButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:textColor="#fffeff43"
+                android:text="Click"
+                style="@style/XOSButton"
+                android:id="@+id/com.android.sdklib.widgets.iOSButton" />
+
+    </com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout>
+</com.android.sdklib.widgets.iOSViewController>

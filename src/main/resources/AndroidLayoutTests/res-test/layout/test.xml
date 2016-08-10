@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.sdklib.widgets.iOSViewController xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" xmlns:xrt="http://schemas.android.com/apk/res/android" xrt:initialViewController="true" android:orientation="horizontal" xrt:viewController="org.moe.iOS.ui.AppViewController">
+
+    <com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="top" android:layout_weight="1.0" android:background="#fffff732">
+        <com.android.sdklib.widgets.iOSButton
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="15dp"
+            android:text="left"
+            style="@style/XOSButton"
+            android:id="@+id/com.android.sdklib.widgets.iOSButton" android:layout_weight="1.0" android:background="#ff8dff79" android:layout_marginTop="10dp" android:layout_marginBottom="10dp"/><com.android.sdklib.widgets.iOSButton
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="15dp"
+        android:text="right"
+        android:layout_gravity="top"
+        style="@style/XOSButton"
+        android:id="@+id/com.android.sdklib.widgets.iOSButton" android:layout_weight="1.0" android:background="#ffff5bfd" android:layout_marginLeft="20dp" android:layout_marginRight="10dp"/></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1" android:background="#ffff1022">
+    <com.android.sdklib.widgets.iOSTextPicker xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/picker_single"
+        android:layout_gravity="left" android:layout_weight="1.0">
+        <com.android.sdklib.widgets.iOSTextView
+            style = "@style/XOSTextView"
+            android:layout_margin="5dp"
+            android:text="Mountain View"/>
+        <com.android.sdklib.widgets.iOSTextView
+            style = "@style/XOSTextView"
+            android:layout_margin="5dp"
+            android:text="Sunnyvale"/>
+        <com.android.sdklib.widgets.iOSTextView
+            style = "@style/XOSTextView"
+            android:layout_margin="5dp"
+            android:text="Cupertino"/>
+        <com.android.sdklib.widgets.iOSTextView
+            style = "@style/XOSTextView"
+            android:layout_margin="5dp"
+            android:text="Santa Clara"/>
+        <com.android.sdklib.widgets.iOSTextView
+            style = "@style/XOSTextView"
+            android:layout_margin="5dp"
+            android:text="San Jose"/>
+    </com.android.sdklib.widgets.iOSTextPicker><com.android.sdklib.widgets.iOSTextView
+    style="@style/XOSLabel"
+    android:textSize="15dp"
+    android:text="1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/com.android.sdklib.widgets.iOSTextView" android:layout_weight="1.0" android:background="#fffeff43" android:layout_marginLeft="2dp" android:layout_marginTop="3dp" android:layout_marginRight="4dp" android:layout_marginBottom="5dp"/><com.android.sdklib.widgets.iOSTextView
+    style="@style/XOSLabel"
+    android:textSize="15dp"
+    android:text="2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="left" android:id="@+id/com.android.sdklib.widgets.iOSTextView" android:layout_weight="1.0" android:background="#ff3225ff" android:layout_marginLeft="4dp" android:layout_marginRight="5dp"/><com.android.sdklib.widgets.iOSTextView
+    style="@style/XOSLabel"
+    android:textSize="15dp"
+    android:text="3"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/com.android.sdklib.widgets.iOSTextView" android:layout_weight="1.0" android:background="#ffc7f8ff" android:layout_marginTop="7dp" android:layout_marginBottom="7dp"/></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout></com.android.sdklib.widgets.iOSViewController>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.sdklib.widgets.iOSViewController
+            xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:xrt="http://schemas.android.com/apk/res/android"
+             xrt:initialViewController="true"
+             android:orientation="vertical"
+             xrt:viewController="org.moe.helloworld.ui.AppViewController">
+
+    <com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+    </com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout>
+
+          <com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout
+              android:orientation="horizontal"
+              android:layout_width="146dp"
+              android:layout_height="38dp"
+              android:layout_gravity="left">
+
+              <com.android.sdklib.widgets.iOSTextView
+                  style="@style/XOSLabel"
+                  xrt:iboutlet="statusText"
+                  android:textSize="15dp"
+                  android:text="Label"
+                  android:layout_width="58dp"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/com.android.sdklib.widgets.iOSTextView"
+                  android:layout_marginLeft="0dp"
+                  android:layout_marginTop="0dp"/>
+
+          </com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout>
+
+          <com.android.sdklib.widgets.iOSStepper
+                    android:layout_width="50dp"
+                    android:layout_height="15dp"
+                    style="@style/XOSStepper_RadioGroup"
+                    android:id="@+id/com.android.sdklib.widgets.iOSStepper"
+                    android:layout_gravity="center_horizontal">
+            </com.android.sdklib.widgets.iOSStepper>
+
+            <com.android.sdklib.widgets.iOSButton
+                android:layout_width="fill_parent"
+                android:layout_height="65dp"
+                android:textSize="15dp"
+                android:text="Press me!"
+                style="@style/XOSButton"
+              android:id="@+id/com.android.sdklib.widgets.iOSButton"
+              xrt:ibaction="touchUpInside-BtnPressedCancel_helloButton:"
+              xrt:iboutlet="helloButton" android:layout_marginTop="200dp"/>
+</com.android.sdklib.widgets.iOSViewController>

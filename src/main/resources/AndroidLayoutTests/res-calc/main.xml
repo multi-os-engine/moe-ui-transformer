@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <com.android.sdklib.widgets.iOSTextView
+            android:id="@+id/calc_label"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            style="@style/CalcTextView"
+            actions="CalcTextView">
+        </com.android.sdklib.widgets.iOSTextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <com.android.sdklib.widgets.iOSButton android:id="@+id/button1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            style="@style/CrossOSButton1">
+
+        </com.android.sdklib.widgets.iOSButton>
+
+        <com.android.sdklib.widgets.iOSButton android:id="@+id/button2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            style="@style/CrossOSButton2"/>
+
+        <com.android.sdklib.widgets.iOSButton android:id="@+id/button3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            style="@style/CrossOSButton3"/>
+
+        <com.android.sdklib.widgets.iOSButton android:id="@+id/button_plus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            style="@style/CrossOSButton_plus"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <com.android.sdklib.widgets.iOSButton android:id="@+id/button4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            style="@style/CrossOSButton4"/>
+
+        <com.android.sdklib.widgets.iOSButton android:id="@+id/button5"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            style="@style/CrossOSButton5"/>
+
+        <com.android.sdklib.widgets.iOSButton android:id="@+id/button6"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            style="@style/CrossOSButton6"/>
+
+        <com.android.sdklib.widgets.iOSButton android:id="@+id/button_minus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            style="@style/CrossOSButton_minus"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <com.android.sdklib.widgets.iOSButton android:id="@+id/button7"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            style="@style/CrossOSButton7"/>
+
+        <com.android.sdklib.widgets.iOSButton android:id="@+id/button8"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            style="@style/CrossOSButton8"/>
+
+        <com.android.sdklib.widgets.iOSButton android:id="@+id/button9"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            style="@style/CrossOSButton9"/>
+
+        <com.android.sdklib.widgets.iOSButton android:id="@+id/button_ymn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            style="@style/CrossOSButton_ymn"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <com.android.sdklib.widgets.iOSButton android:id="@+id/button_dot"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            style="@style/CrossOSButton_dot"/>
+
+        <com.android.sdklib.widgets.iOSButton android:id="@+id/button0"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            style="@style/CrossOSButton0"/>
+
+        <com.android.sdklib.widgets.iOSButton android:id="@+id/button_equel"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            style="@style/CrossOSButton_equel"/>
+
+        <com.android.sdklib.widgets.iOSButton android:id="@+id/button_razdelit"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            style="@style/CrossOSButton_razdelit"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.sdklib.widgets.iOSTableViewController xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:xrt="http://schemas.android.com/apk/res/android" android:orientation="vertical"><com.android.sdklib.widgets.iOSTableView
+                      android:orientation="vertical"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      style="@style/XOSTableView"
+                      android:layout_weight="1"
+                      android:layout_gravity="left">
+                        <com.android.sdklib.widgets.iOSTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Prototype Cells"
+                                android:textSize="15dp"
+                                android:textColor="#000000"
+                                android:layout_marginLeft="15dp"
+                                android:textStyle="bold"/><com.android.sdklib.widgets.iOSTableViewCell
+                                android:orientation="horizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="119dp"
+                                style="@style/XOSTableViewCell" android:layout_gravity="left">
+
+                <com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" android:layout_centerVertical="true" android:layout_centerHorizontal="true">
+          <com.android.sdklib.widgets.iOSButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="15dp"
+                style="@style/XOSButton"
+              android:id="@+id/com.android.sdklib.widgets.iOSButton" android:background="#ff89ff4b" android:text=" "/><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_weight="1">
+            <com.android.sdklib.widgets.iOSTextView
+                style="@style/XOSLabel"
+                android:textSize="15dp"
+                android:text="Label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/com.android.sdklib.widgets.iOSTextView" android:layout_gravity="center" android:layout_marginTop="10dp"/><com.android.sdklib.widgets.iOSTextView
+                style="@style/XOSLabel"
+                android:textSize="15dp"
+                android:text="Label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/com.android.sdklib.widgets.iOSTextView" android:layout_gravity="center" android:layout_marginTop="10dp"/><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" android:layout_gravity="left" android:layout_marginTop="10dp">
+          <com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_weight="1.0">
+            <com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left" android:layout_weight="1.0">
+          <com.android.sdklib.widgets.iOSTextView
+                style="@style/XOSLabel"
+                android:textSize="15dp"
+                android:text="12:99"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/com.android.sdklib.widgets.iOSTextView" android:layout_weight="1.0"/><com.android.sdklib.widgets.iOSTextView
+                style="@style/XOSLabel"
+                android:textSize="15dp"
+                android:text="*******"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/com.android.sdklib.widgets.iOSTextView" android:layout_weight="1.0"/></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" android:layout_gravity="left">
+          <com.android.sdklib.widgets.iOSTextView
+                style="@style/XOSLabel"
+                android:textSize="15dp"
+                android:text="Label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/com.android.sdklib.widgets.iOSTextView" android:layout_weight="1.0"/><com.android.sdklib.widgets.iOSTextView
+                style="@style/XOSLabel"
+                android:textSize="15dp"
+                android:text="Label"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/com.android.sdklib.widgets.iOSTextView" android:layout_weight="1.0"/></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_weight="1">
+            <com.android.sdklib.widgets.iOSButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="15dp"
+                android:layout_gravity="left"
+                style="@style/XOSButton"
+              android:id="@+id/com.android.sdklib.widgets.iOSButton" android:layout_weight="1.0" android:text=" " android:background="#ffff4039"/></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout></com.android.sdklib.widgets.iOSTableViewCell><com.android.sdklib.widgets.iOSTableViewCell style="@style/XOSTableViewCell" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="119dp" android:layout_gravity="left"><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1" android:layout_centerVertical="true" android:layout_centerHorizontal="true"><com.android.sdklib.widgets.iOSButton style="@style/XOSButton" android:layout_width="wrap_content" android:layout_height="match_parent" android:textSize="15dp"  android:id="@+id/com.android.sdklib.widgets.iOSButton" android:background="#ff5bff48" android:text=" "/><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1"><com.android.sdklib.widgets.iOSTextView style="@style/XOSLabel" android:textSize="15dp" android:text="Label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/com.android.sdklib.widgets.iOSTextView" android:layout_gravity="center" android:layout_marginTop="10dp"/><com.android.sdklib.widgets.iOSTextView style="@style/XOSLabel" android:textSize="15dp" android:text="Label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/com.android.sdklib.widgets.iOSTextView" android:layout_gravity="center" android:layout_marginTop="10dp"/><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1" android:layout_gravity="left" android:layout_marginTop="10dp"><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_gravity="left" android:layout_weight="1.0"><com.android.sdklib.widgets.iOSTextView style="@style/XOSLabel" android:textSize="15dp" android:text="1:99" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/com.android.sdklib.widgets.iOSTextView" android:layout_weight="1.0"/><com.android.sdklib.widgets.iOSTextView style="@style/XOSLabel" android:textSize="15dp" android:text="***" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/com.android.sdklib.widgets.iOSTextView" android:layout_weight="1.0"/></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1" android:layout_gravity="left"><com.android.sdklib.widgets.iOSTextView style="@style/XOSLabel" android:textSize="15dp" android:text="Label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/com.android.sdklib.widgets.iOSTextView" android:layout_weight="1.0"/><com.android.sdklib.widgets.iOSTextView style="@style/XOSLabel" android:textSize="15dp" android:text="Label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/com.android.sdklib.widgets.iOSTextView" android:layout_weight="1.0"/></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1"><com.android.sdklib.widgets.iOSButton style="@style/XOSButton" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textSize="15dp" android:text=" " android:layout_gravity="left" android:id="@+id/com.android.sdklib.widgets.iOSButton" android:layout_weight="1.0" android:background="#ffff4039"/></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout></com.android.sdklib.widgets.iOSTableViewCell><com.android.sdklib.widgets.iOSTableViewCell style="@style/XOSTableViewCell" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="119dp" android:layout_gravity="left"><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1" android:layout_centerVertical="true" android:layout_centerHorizontal="true"><com.android.sdklib.widgets.iOSButton style="@style/XOSButton" android:layout_width="wrap_content" android:layout_height="match_parent" android:textSize="15dp"  android:id="@+id/com.android.sdklib.widgets.iOSButton" android:background="#ff41ffad" android:text=" "/><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1"><com.android.sdklib.widgets.iOSTextView style="@style/XOSLabel" android:textSize="15dp" android:text="Label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/com.android.sdklib.widgets.iOSTextView" android:layout_gravity="center" android:layout_marginTop="10dp"/><com.android.sdklib.widgets.iOSTextView style="@style/XOSLabel" android:textSize="15dp" android:text="Label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/com.android.sdklib.widgets.iOSTextView" android:layout_gravity="center" android:layout_marginTop="10dp"/><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1" android:layout_gravity="left" android:layout_marginTop="10dp"><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_gravity="left" android:layout_weight="1.0"><com.android.sdklib.widgets.iOSTextView style="@style/XOSLabel" android:textSize="15dp" android:text="4:67" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/com.android.sdklib.widgets.iOSTextView" android:layout_weight="1.0"/><com.android.sdklib.widgets.iOSTextView style="@style/XOSLabel" android:textSize="15dp" android:text="*****" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/com.android.sdklib.widgets.iOSTextView" android:layout_weight="1.0"/></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1" android:layout_gravity="left"><com.android.sdklib.widgets.iOSTextView style="@style/XOSLabel" android:textSize="15dp" android:text="Label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/com.android.sdklib.widgets.iOSTextView" android:layout_weight="1.0"/><com.android.sdklib.widgets.iOSTextView style="@style/XOSLabel" android:textSize="15dp" android:text="Label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/com.android.sdklib.widgets.iOSTextView" android:layout_weight="1.0"/></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1"><com.android.sdklib.widgets.iOSButton style="@style/XOSButton" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textSize="15dp" android:text=" " android:layout_gravity="left" android:id="@+id/com.android.sdklib.widgets.iOSButton" android:layout_weight="1.0" android:background="#ffff4039"/></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout></com.android.sdklib.widgets.iOSTableViewCell>
+
+
+                </com.android.sdklib.widgets.iOSTableView>
+
+</com.android.sdklib.widgets.iOSTableViewController>

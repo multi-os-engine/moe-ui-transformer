@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light"/>
+    <style name="AppTheme" parent ="AppBaseTheme"/>
+
+    <!-- XOS Page Control (as RadioGroup and RadioButton) -->
+    <style name="XOSPageControlGroup">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="XOSPageControlDot">
+        <item name="android:background">@drawable/xos_pagecontrol_selector</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:button">@null</item>
+    </style>
+
+</resources>

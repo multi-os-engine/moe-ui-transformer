@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.sdklib.widgets.iOSViewController xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:xrt="http://schemas.android.com/apk/res/android" android:orientation="vertical" xrt:viewController="org.moe.tableView_ios.ui.MyViewController">
+
+<com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="left">
+          <com.android.sdklib.widgets.iOSTextView
+                style="@style/XOSLabel"
+                android:textSize="15dp"
+                android:text="Course : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top" android:id="@+id/com.android.sdklib.widgets.iOSTextView"/><com.android.sdklib.widgets.iOSTextView
+                style="@style/XOSLabel"
+                android:textSize="15dp"
+                android:text="courseText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top" android:id="@+id/com.android.sdklib.widgets.iOSTextView" xrt:iboutlet="CourseText"/></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="36dp"
+            android:layout_gravity="left">
+          <com.android.sdklib.widgets.iOSTextView
+                style="@style/XOSLabel"
+                android:textSize="15dp"
+                android:text="Author : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top" android:id="@+id/com.android.sdklib.widgets.iOSTextView"/><com.android.sdklib.widgets.iOSTextView
+                style="@style/XOSLabel"
+                android:textSize="15dp"
+                android:text="authorText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top" android:id="@+id/com.android.sdklib.widgets.iOSTextView" xrt:iboutlet="AuthorText"/></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="38dp"
+            android:layout_gravity="left">
+          <com.android.sdklib.widgets.iOSTextView
+                style="@style/XOSLabel"
+                android:textSize="15dp"
+                android:text="Description : "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top" android:id="@+id/com.android.sdklib.widgets.iOSTextView"/></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="254dp"
+            android:layout_gravity="left">
+          <com.android.sdklib.widgets.iOSTextView
+                style="@style/XOSLabel"
+                android:textSize="15dp"
+                android:text="descriptionText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top" android:id="@+id/com.android.sdklib.widgets.iOSTextView" xrt:iboutlet="DescriptionText"/></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout><com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="49dp"
+            android:layout_gravity="left">
+          <com.android.sdklib.widgets.iOSButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="Button"
+                android:layout_gravity="top"
+                style="@style/XOSButton"
+              android:id="@+id/com.android.sdklib.widgets.iOSButton" xrt:ibaction="touchUpInside-dismiss:"/></com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout></com.android.sdklib.widgets.iOSViewController>

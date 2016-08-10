@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:xrt="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical">
+
+<com.android.sdklib.widgets.iOSTextView
+                style="@style/XOSLabel"
+                android:textSize="15dp"
+                android:text="2nd page"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/com.android.sdklib.widgets.iOSTextView"/>
+               <com.android.sdklib.widgets.iOSButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="Back"
+                style="@style/XOSButton"
+              android:id="@+id/com.android.sdklib.widgets.iOSButton"
+/>
+
+              </com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout>

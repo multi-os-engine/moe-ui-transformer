@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal">
+    <com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:orientation="vertical">
+        <com.android.sdklib.widgets.iOSButton
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="Top Button"
+            style="@style/XOSButton"
+            android:id="@+id/button" />
+        <com.android.sdklib.widgets.iOSButton
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Bottom Button"
+            style="@style/XOSButton"
+            android:id="@+id/button2"
+            android:layout_weight="1"/>
+    </com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout>
+    <com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+        <com.android.sdklib.widgets.iOSButton
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Left Button"
+            android:layout_weight="1"
+            style="@style/XOSButton"/>
+        <com.android.sdklib.widgets.iOSButton
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Right Button"
+            style="@style/XOSButton"
+            android:layout_weight="1"/>
+    </com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout>
+</com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout>

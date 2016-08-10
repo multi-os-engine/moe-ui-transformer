@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.sdklib.widgets.iOSViewController xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:xrt="http://schemas.android.com/apk/res/android" android:orientation="vertical">
+
+    <com.android.sdklib.widgets.iOSToolBar
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            style="@style/XOSToolbar"
+                            xrt:restorationIdentifier="identifier"
+                            android:layout_gravity="left">
+
+        <com.android.sdklib.widgets.iOSBarButtonItem
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Item"
+                        android:layout_weight="1"
+                        style="@style/XOSBarButtonItem"
+                        android:id="@+id/com.android.sdklib.widgets.iOSBarButtonItem"
+                        android:layout_alignBaseline="@+id/com.android.sdklib.widgets.iOSBarButtonItem"
+                        android:layout_alignBottom="@+id/com.android.sdklib.widgets.iOSBarButtonItem"
+                        android:layout_toLeftOf="@+id/com.android.sdklib.widgets.iOSBarButtonItem"/>
+        <com.android.sdklib.widgets.iOSBarButtonItem
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Item"
+                        android:layout_weight="1"
+                        style="@style/XOSBarButtonItem"
+                        android:id="@+id/com.android.sdklib.widgets.iOSBarButtonItem"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/com.android.sdklib.widgets.iOSBarButtonItem"/>
+
+        <com.android.sdklib.widgets.iOSBarButtonItem
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Item with width"
+                        android:layout_weight="1"
+                        style="@style/XOSBarButtonItem"
+                        android:id="@+id/com.android.sdklib.widgets.iOSBarButtonItem"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"/>
+        </com.android.sdklib.widgets.iOSToolBar>
+
+</com.android.sdklib.widgets.iOSViewController>

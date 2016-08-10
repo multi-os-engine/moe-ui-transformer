@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light"/>
+    <style name="AppTheme" parent ="AppBaseTheme"/>
+
+    <!-- XOS Bar Button Item and Navigation item-->
+    <style name="XOSBarButtonItem" parent="android:Widget.DeviceDefault.Button.Borderless.Small">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">#0033ff</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>

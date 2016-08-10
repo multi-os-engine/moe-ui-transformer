@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.sdklib.widgets.iOSViewController xmlns:android="http://schemas.android.com/apk/res/android"
+                                              android:layout_width="match_parent"
+                                              android:layout_height="match_parent"
+                                              xmlns:xrt="http://schemas.android.com/apk/res/android"
+                                              android:orientation="vertical">
+
+        <com.android.sdklib.widgets.iOSTextView
+                style="@style/XOSLabel"
+                android:textSize="16dp"
+                android:text="Test Label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:id="@+id/com.android.sdklib.widgets.iOSTextView"
+                android:textColor="#ffff203c"
+                android:background="#ffddff35"/>
+
+</com.android.sdklib.widgets.iOSViewController>

@@ -1,0 +1,125 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="CrossOSButton">
+        <item name="android:background">#ffbbaadd</item>
+        <item name="android:textColor">#ff2c82ff</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:text">CrossButton</item>
+    </style>
+
+    <style name="CalcTextView">
+        <item name="android:background">#0A2269</item>
+        <item name="android:textColor">#ff2c82ff</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:text">0</item>
+    </style>
+
+    <style name="CrossOSButton1">
+        <item name="android:background">#ffbbaadd</item>
+        <item name="android:textColor">#ff2c82ff</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:text">1</item>
+    </style>
+    <style name="CrossOSButton2">
+        <item name="android:background">#ffbbaadd</item>
+        <item name="android:textColor">#ff2c82ff</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:text">2</item>
+    </style>
+    <style name="CrossOSButton3">
+        <item name="android:background">#ffbbaadd</item>
+        <item name="android:textColor">#ff2c82ff</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:text">3</item>
+    </style>
+    <style name="CrossOSButton_plus">
+        <item name="android:background">#ffbbaadd</item>
+        <item name="android:textColor">#ff2c82ff</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:text">+</item>
+    </style>
+
+
+    <style name="CrossOSButton4">
+        <item name="android:background">#ffbbaadd</item>
+        <item name="android:textColor">#ff2c82ff</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:text">4</item>
+    </style>
+    <style name="CrossOSButton5">
+        <item name="android:background">#ffbbaadd</item>
+        <item name="android:textColor">#ff2c82ff</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:text">5</item>
+    </style>
+    <style name="CrossOSButton6">
+        <item name="android:background">#ffbbaadd</item>
+        <item name="android:textColor">#ff2c82ff</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:text">6</item>
+    </style>
+    <style name="CrossOSButton_minus">
+        <item name="android:background">#ffbbaadd</item>
+        <item name="android:textColor">#ff2c82ff</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:text">-</item>
+    </style>
+
+    <style name="CrossOSButton7">
+        <item name="android:background">#ffbbaadd</item>
+        <item name="android:textColor">#ff2c82ff</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:text">7</item>
+    </style>
+    <style name="CrossOSButton8">
+        <item name="android:background">#ffbbaadd</item>
+        <item name="android:textColor">#ff2c82ff</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:text">8</item>
+    </style>
+    <style name="CrossOSButton9">
+        <item name="android:background">#ffbbaadd</item>
+        <item name="android:textColor">#ff2c82ff</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:text">9</item>
+    </style>
+    <style name="CrossOSButton_ymn">
+        <item name="android:background">#ffbbaadd</item>
+        <item name="android:textColor">#ff2c82ff</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:text">*</item>
+    </style>
+
+
+    <style name="CrossOSButton_dot">
+        <item name="android:background">#ffbbaadd</item>
+        <item name="android:textColor">#ff2c82ff</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:text">.</item>
+    </style>
+    <style name="CrossOSButton0">
+        <item name="android:background">#ffbbaadd</item>
+        <item name="android:textColor">#ff2c82ff</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:text">0</item>
+    </style>
+    <style name="CrossOSButton_equel">
+        <item name="android:background">#ffbbaadd</item>
+        <item name="android:textColor">#ff2c82ff</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:text">=</item>
+    </style>
+    <style name="CrossOSButton_razdelit">
+        <item name="android:background">#ffbbaadd</item>
+        <item name="android:textColor">#ff2c82ff</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:text">/</item>
+    </style>
+
+</resources>

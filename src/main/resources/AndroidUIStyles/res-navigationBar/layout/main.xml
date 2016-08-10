@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical">
+
+    <com.android.sdklib.widgets.iOSNavigationBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/XOSNavigationBar"
+            android:navigationIcon="@drawable/ios_back_icon">
+
+        <com.android.sdklib.widgets.iOSNavigationBarTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ios_black"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Title"/>
+
+    </com.android.sdklib.widgets.iOSNavigationBar>
+    
+</LinearLayout>

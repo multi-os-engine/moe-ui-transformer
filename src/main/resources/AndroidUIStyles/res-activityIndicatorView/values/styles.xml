@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light"/>
+    <style name="AppTheme" parent ="AppBaseTheme"/>
+
+    <!-- XOS Activity Indicator -->
+    <style name="XOSActivityIndicatorView">
+        <item name="android:indeterminateDrawable">@drawable/ios_activity_indicator</item>
+    </style>
+
+</resources>

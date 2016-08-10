@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.sdklib.widgets.iOSViewController xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:xrt="http://schemas.android.com/apk/res/android" android:orientation="vertical">
+
+<com.android.sdklib.widgets.iOSStepper
+                    android:layout_width="50dp"
+                    android:layout_height="15dp"
+                    style="@style/XOSStepper_RadioGroup"
+                    android:id="@+id/com.android.sdklib.widgets.iOSStepper"
+                    xrt:restorationIdentifier="identifier"
+                    android:layout_gravity="left"
+                    xrt:segue_type="show"
+                    xrt:segue_destination="test_design.ixml"
+                    xrt:segue_identifier="segue_identifier">
+</com.android.sdklib.widgets.iOSStepper>
+
+</com.android.sdklib.widgets.iOSViewController>

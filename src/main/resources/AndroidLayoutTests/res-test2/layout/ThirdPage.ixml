@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.sdklib.widgets.iOSViewController xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:xrt="http://schemas.android.com/apk/res/android" android:orientation="vertical" xrt:initialViewController="true" android:weightSum="1" xrt:viewController="org.moe.SampleMOSProject.ui.ThirdController"  >
+
+<com.android.sdklib.widgets.iOSTextView
+                style="@style/XOSLabel"
+                android:textSize="15dp"
+                android:text="Details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left" android:id="@+id/com.android.sdklib.widgets.iOSTextView"/><com.android.sdklib.widgets.iOSTextField
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    style="@style/XOSTextField"
+                    android:id="@+id/com.android.sdklib.widgets.iOSTextField" android:layout_weight="0.48"/><com.android.sdklib.widgets.iOSTextView
+                style="@style/XOSLabel"
+                android:textSize="15dp"
+                android:text="Enable editing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/com.android.sdklib.widgets.iOSTextView"/><com.android.sdklib.widgets.iOSSwitch
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content"
+                    style="@style/XOSSwitch"
+                    android:checked="true"
+                    android:id="@+id/com.android.sdklib.widgets.iOSSwitch" /><com.android.sdklib.widgets.iOSButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="Save"
+                style="@style/XOSButton"
+              android:id="@+id/com.android.sdklib.widgets.iOSButton" xrt:iboutlet="saveButton" xrt:segue_type="show"/><com.android.sdklib.widgets.iOSButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="Return"
+                style="@style/XOSButton"
+              android:id="@+id/com.android.sdklib.widgets.iOSButton"/></com.android.sdklib.widgets.iOSViewController>

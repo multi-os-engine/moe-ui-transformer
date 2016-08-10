@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1">
+
+    <com.android.sdklib.widgets.iOSStepper
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/XOSStepper_RadioGroup">
+
+            <com.android.sdklib.widgets.iOSStepperElement
+                    style="@style/XOSStepper_RadioButton_Minus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            <com.android.sdklib.widgets.iOSStepperElement
+                    style="@style/XOSStepper_RadioButton_Plus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+    </com.android.sdklib.widgets.iOSStepper>
+    
+</LinearLayout>

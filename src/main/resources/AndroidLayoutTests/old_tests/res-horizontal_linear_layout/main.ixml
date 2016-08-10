@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="horizontal"
+    android:weightSum="3">
+
+    <com.android.sdklib.widgets.iOSButton android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.5"
+        android:text="Test Button Left"
+        style="@style/XOSButton"/>
+
+    <com.android.sdklib.widgets.iOSButton android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:text="Test Button Middle"
+        style="@style/XOSButton"/>
+
+    <com.android.sdklib.widgets.iOSButton android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="Test Button Right"
+        style="@style/XOSButton"/>
+</com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout>

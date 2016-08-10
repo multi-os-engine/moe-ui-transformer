@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xrt="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    xrt:initialViewController="true"
+    android:weightSum="1"
+    android:background="#ffb0d6ff">
+
+    <com.android.sdklib.widgets.iOSButton
+        android:id="@+id/button2"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="60dp"
+        android:text="Button2"
+        style="@style/XOSButton"
+        android:background="#ffb0d60f"/>
+
+    <com.android.sdklib.widgets.iOSButton
+        android:id="@+id/button2"
+        android:layout_width="50dp"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="150dp"
+        android:text="Button2"
+        style="@style/XOSButton"
+        android:background="#ffb0d60f"/>
+
+
+</com.android.sdklib.widgets.base_elements.iOSBaseLinearLayout>

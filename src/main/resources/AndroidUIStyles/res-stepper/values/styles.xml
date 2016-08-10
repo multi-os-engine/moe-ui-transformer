@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light"/>
+    <style name="AppTheme" parent ="AppBaseTheme"/>
+
+    <!-- XOS Stepper -->
+    <style name="XOSStepper_RadioGroup">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="XOSStepper_RadioButton_Minus">
+        <item name="android:background">@drawable/xos_stepper_button_minus</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="XOSStepper_RadioButton_Plus">
+        <item name="android:background">@drawable/xos_stepper_button_plus</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+</resources>

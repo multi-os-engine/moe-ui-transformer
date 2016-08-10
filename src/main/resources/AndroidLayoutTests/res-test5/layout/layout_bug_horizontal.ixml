@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.sdklib.widgets.iOSViewController xmlns:android="http://schemas.android.com/apk/res/android"
+                                              android:layout_width="match_parent"
+                                              android:layout_height="match_parent" xmlns:xrt="http://schemas.android.com/apk/res/android" xrt:initialViewController="true" android:orientation="horizontal" xrt:viewController="org.moe.Test_Module.ui.AppViewController">
+
+    <com.android.sdklib.widgets.iOSTextView
+            style="@style/XOSLabel"
+            android:textSize="15dp"
+            android:text="Label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top" android:id="@+id/com.android.sdklib.widgets.iOSTextView"  android:background="#ffd8d9ff" android:layout_weight="1.0"/><com.android.sdklib.widgets.iOSTextView
+        style="@style/XOSLabel"
+        android:textSize="15dp"
+        android:text="Label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" android:id="@+id/com.android.sdklib.widgets.iOSTextView"  android:background="#ffd8d9ff" android:layout_weight="1.0"/><com.android.sdklib.widgets.iOSTextView
+        style="@style/XOSLabel"
+        android:textSize="15dp"
+        android:text="Label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" android:id="@+id/com.android.sdklib.widgets.iOSTextView"  android:background="#ffd8d9ff" android:layout_weight="1.0"/></com.android.sdklib.widgets.iOSViewController>
