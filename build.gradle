@@ -15,32 +15,12 @@ limitations under the License.
 */
 
 apply plugin: 'java'
-apply plugin: 'maven-publish'
 
 sourceCompatibility = "1.7"
 targetCompatibility = "1.7"
 
-ext {
-    moeProject = 'MOE_UI_TRANSFORMER'
-    moeVersion = [:]
-}
-
-initMOEProject(project, [vMajor: 1, vMinor: 1, vPatch: 0])
-
-repositories {
-  mavenCentral()
-}
-
 dependencies {
     testCompile 'junit:junit:[4,)'
-}
-
-uploadArchives {
-    repositories {
-       flatDir {
-           dirs 'repos'
-       }
-    }
 }
 
 task run(type:JavaExec) {
@@ -53,15 +33,4 @@ task run(type:JavaExec) {
             "--out-path=build/libs",
             "--uitransformer-res-path=" + projectDir.absolutePath + "/src/main/resources/UITransformer-res",
     ].toList()
-}
-
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            groupId 'org.moe'
-            artifactId 'moeUITransformer'
-
-            from components.java
-        }
-    }
 }
